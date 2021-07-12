@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-wrapper{
+    max-width: 500px;
+    margin: 200px auto 0;
+    
+}
+
+.container{
+    max-width: 550px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider-img{
+    width: 360px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+}
+
+.btn-right{
+    right: 42%;
+    left: auto;   
+}
+
+.btn-left{
+    left: 42%;
+    right: auto;   
+}
+
+button i{
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(223, 20, 20);
+    display: block;
+}
+
+button:hover{
+    background-color: rgb(223, 20, 20);
+    transition: .2s;
+}
+button i:hover{
+    color: #ffff;
+}
